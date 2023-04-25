@@ -7,7 +7,7 @@ function handleSubmit(event) {
   };
   props.sendFormDataSomewhere(formData);
 }
-Since we don't have a server to send our data to, let's remove our sendFormDataSomewhere() function. Instead, we'll demonstrate submission by modifying our Form component to access submitted values from state and list them in the DOM:
+
 
 import React, { useState } from "react";
 
